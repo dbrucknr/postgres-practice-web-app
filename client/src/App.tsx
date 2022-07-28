@@ -1,5 +1,5 @@
 import './styles/App.css';
-import { QueryInput } from './components/QueryInput';
+import { QueryEditor } from './components/QueryEditor';
 import { QueryResult } from './components/QueryResult';
 
 const App = () => {
@@ -7,7 +7,7 @@ const App = () => {
     <div id='main'>
       <div className='layout'>
         <div className='col'>
-          <QueryInput />
+          <QueryEditor />
         </div>
         <div className='col'>
           <QueryResult />
